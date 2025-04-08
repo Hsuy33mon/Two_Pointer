@@ -1,6 +1,7 @@
 import ContainerWater.ContainerWithMostWater;
 import isSubsequence.IsSubSequence;
 import maxNumofKsum.maxOperations;
+import maxNumofKsum.twoSum2;
 import moveZeros.MoveZeros;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -23,10 +24,17 @@ public class Main {
 //        ContainerWithMostWater containerWithMostWater = new ContainerWithMostWater();
 //        System.out.println(containerWithMostWater.solution(new int[]{1,8,6,2,5,4,8,3,7}));
 
-        System.out.println("\nMax Number of K-sum Pairs test cases\n");
-        maxOperations max = new maxOperations();
+//        System.out.println("\nMax Number of K-sum Pairs test cases\n");
+//        maxOperations max = new maxOperations();
 //        System.out.println(max.solution(new int[]{1,2,3,4},5));
-        System.out.println(max.solution(new int[]{3,1,3,4,3},6));
-        System.out.println(max.solution(new int[]{4,4,1,3,1,3,2,2,5,5,1,5,2,1,2,3,5,4},2));
+//        System.out.println(max.solution(new int[]{3,1,3,4,3},6));
+//        System.out.println(max.solution(new int[]{4,4,1,3,1,3,2,2,5,5,1,5,2,1,2,3,5,4},2));
+
+        System.out.println("\nTwo Sum 2 test cases\n");
+        twoSum2 twoSum = new twoSum2();
+        int[] result = twoSum.solution(new int[]{2,7,11,15},9);
+        for(int i: result){
+            System.out.print(i+" ");
+        }
     }
 }
